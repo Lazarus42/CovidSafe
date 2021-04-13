@@ -13,6 +13,12 @@
 		8E362276260BB1BB006538C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E362275260BB1BB006538C9 /* Preview Assets.xcassets */; };
 		8E362281260BB1BB006538C9 /* CovidSafeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E362280260BB1BB006538C9 /* CovidSafeTests.swift */; };
 		8E36228C260BB1BB006538C9 /* CovidSafeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E36228B260BB1BB006538C9 /* CovidSafeUITests.swift */; };
+		8E36229D260BB1D3006538C9 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E36229C260BB1D3006538C9 /* Profile.swift */; };
+		8E3622A2260BB328006538C9 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3622A1260BB328006538C9 /* ProfileHost.swift */; };
+		8E3622A7260BB570006538C9 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3622A6260BB570006538C9 /* ProfileSummary.swift */; };
+		8E3622AC260D467C006538C9 /* LogorSignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3622AB260D467C006538C9 /* LogorSignUpScreen.swift */; };
+		8E3622B1260D4850006538C9 /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3622B0260D4850006538C9 /* LogIn.swift */; };
+		8E3622B6260D585A006538C9 /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3622B5260D585A006538C9 /* SignUpPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		8E362287260BB1BB006538C9 /* CovidSafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CovidSafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E36228B260BB1BB006538C9 /* CovidSafeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidSafeUITests.swift; sourceTree = "<group>"; };
 		8E36228D260BB1BB006538C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E36229C260BB1D3006538C9 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		8E3622A1260BB328006538C9 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		8E3622A6260BB570006538C9 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		8E3622AB260D467C006538C9 /* LogorSignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogorSignUpScreen.swift; sourceTree = "<group>"; };
+		8E3622B0260D4850006538C9 /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		8E3622B5260D585A006538C9 /* SignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,10 @@
 			children = (
 				8E36226E260BB1BA006538C9 /* CovidSafeApp.swift */,
 				8E362270260BB1BA006538C9 /* ContentView.swift */,
+				8E36229C260BB1D3006538C9 /* Profile.swift */,
+				8EB16BAA260D8A6C009E2EE1 /* Log In  */,
+				8E3622A1260BB328006538C9 /* ProfileHost.swift */,
+				8E3622A6260BB570006538C9 /* ProfileSummary.swift */,
 				8E362272260BB1BB006538C9 /* Assets.xcassets */,
 				8E362277260BB1BB006538C9 /* Info.plist */,
 				8E362274260BB1BB006538C9 /* Preview Content */,
@@ -128,6 +144,16 @@
 				8E36228D260BB1BB006538C9 /* Info.plist */,
 			);
 			path = CovidSafeUITests;
+			sourceTree = "<group>";
+		};
+		8EB16BAA260D8A6C009E2EE1 /* Log In  */ = {
+			isa = PBXGroup;
+			children = (
+				8E3622AB260D467C006538C9 /* LogorSignUpScreen.swift */,
+				8E3622B0260D4850006538C9 /* LogIn.swift */,
+				8E3622B5260D585A006538C9 /* SignUpPage.swift */,
+			);
+			path = "Log In ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +286,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E362271260BB1BA006538C9 /* ContentView.swift in Sources */,
+				8E3622AC260D467C006538C9 /* LogorSignUpScreen.swift in Sources */,
+				8E36229D260BB1D3006538C9 /* Profile.swift in Sources */,
+				8E3622B1260D4850006538C9 /* LogIn.swift in Sources */,
+				8E3622A7260BB570006538C9 /* ProfileSummary.swift in Sources */,
+				8E3622B6260D585A006538C9 /* SignUpPage.swift in Sources */,
 				8E36226F260BB1BA006538C9 /* CovidSafeApp.swift in Sources */,
+				8E3622A2260BB328006538C9 /* ProfileHost.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
