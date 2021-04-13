@@ -107,12 +107,9 @@
 		8E36226D260BB1BA006538C9 /* CovidSafe */ = {
 			isa = PBXGroup;
 			children = (
-				8E36226E260BB1BA006538C9 /* CovidSafeApp.swift */,
-				8E362270260BB1BA006538C9 /* ContentView.swift */,
-				8E36229C260BB1D3006538C9 /* Profile.swift */,
+				8EBCC24D262545C6006140FB /* Main */,
+				8EBCC24C262545AA006140FB /* Profile */,
 				8EB16BAA260D8A6C009E2EE1 /* Log In  */,
-				8E3622A1260BB328006538C9 /* ProfileHost.swift */,
-				8E3622A6260BB570006538C9 /* ProfileSummary.swift */,
 				8E362272260BB1BB006538C9 /* Assets.xcassets */,
 				8E362277260BB1BB006538C9 /* Info.plist */,
 				8E362274260BB1BB006538C9 /* Preview Content */,
@@ -154,6 +151,25 @@
 				8E3622B5260D585A006538C9 /* SignUpPage.swift */,
 			);
 			path = "Log In ";
+			sourceTree = "<group>";
+		};
+		8EBCC24C262545AA006140FB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8E36229C260BB1D3006538C9 /* Profile.swift */,
+				8E3622A1260BB328006538C9 /* ProfileHost.swift */,
+				8E3622A6260BB570006538C9 /* ProfileSummary.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8EBCC24D262545C6006140FB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8E36226E260BB1BA006538C9 /* CovidSafeApp.swift */,
+				8E362270260BB1BA006538C9 /* ContentView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
