@@ -8,16 +8,26 @@
 import SwiftUI
 
 struct LogorSignUpScreen: View {
+    var height = UIScreen.main.bounds.height
     var body: some View {
-        VStack(spacing:30) {
-        Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-            Text("Log in")
-        }
-        Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-            Text("Sign up")
-            }
-        }
+        
+    NavigationView {
+        //VStack vertically organizes the view
+        VStack(alignment: .center, spacing: height/15) {
+            //Send to Log In page
+            NavigationLink(destination: LogIn()) {
+                Text("Log In")
+                    }
+            //Send to Sign Up page
+            NavigationLink(destination: SignUp()) {
+                Text("Sign up")
+                    }
+                }
+        
+        }.padding(.bottom, height/4)
+        
     }
+    
 }
 
 struct LogorSignUpScreen_Previews: PreviewProvider {
