@@ -22,15 +22,13 @@ struct SignUp: View {
     var body: some View {
         VStack (alignment: .center, spacing: height/20){
             Text("Enter your info below to sign up!")
-            //Username text field
             TextField("Username", text: $username).disableAutocorrection(false)
-            //Password text field
             SecureField("Password", text: $password)
             .disableAutocorrection(true)
             TextField("First name", text: $firstName).disableAutocorrection(false)
             TextField("Last name", text: $lastName).disableAutocorrection(false)
-            TextField("Birthday", text: $username).disableAutocorrection(false)
-            TextField("Phone Number", text: $username).disableAutocorrection(false)
+            TextField("Birthday", text: $birthday).disableAutocorrection(false)
+            TextField("Phone Number", text: $phoneNumber).disableAutocorrection(false)
         }.multilineTextAlignment(.center)
     }
 }
