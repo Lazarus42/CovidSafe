@@ -1,0 +1,28 @@
+
+[
+
+    {
+        "id": 0,
+        "name": "Cashman Center",
+        "state": "Nevada",
+        "vaccAvailable": 5,
+        "waiting": 9,
+        "coordinates": {
+            "latitude": 36.179669540211975,
+            "longitude": -115.13138890197307
+        }
+    },
+    
+    {
+        "id": 1,
+        "name": "A",
+        "state": "California",
+        "vaccAvailable": 2,
+        "waiting": 7,
+        "coordinates": {
+             "latitude": -0.5,
+             "longitude": 90
+         }
+    }
+
+]

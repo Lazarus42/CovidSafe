@@ -19,6 +19,11 @@
 		8E3622AC260D467C006538C9 /* LogorSignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3622AB260D467C006538C9 /* LogorSignUpScreen.swift */; };
 		8E3622B1260D4850006538C9 /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3622B0260D4850006538C9 /* LogIn.swift */; };
 		8E3622B6260D585A006538C9 /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3622B5260D585A006538C9 /* SignUpPage.swift */; };
+		8E865EE2262927D7001B09A2 /* SitesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E865EE1262927D7001B09A2 /* SitesView.swift */; };
+		8E865EE726292B65001B09A2 /* VaccinationLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E865EE626292B65001B09A2 /* VaccinationLocation.swift */; };
+		8E865EEC26292CCC001B09A2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E865EEB26292CCC001B09A2 /* ModelData.swift */; };
+		8E865EF12629370D001B09A2 /* locationsInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E865EF02629370D001B09A2 /* locationsInfo.json */; };
+		8E865EF626293A3C001B09A2 /* LocationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E865EF526293A3C001B09A2 /* LocationRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +62,11 @@
 		8E3622AB260D467C006538C9 /* LogorSignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogorSignUpScreen.swift; sourceTree = "<group>"; };
 		8E3622B0260D4850006538C9 /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
 		8E3622B5260D585A006538C9 /* SignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
+		8E865EE1262927D7001B09A2 /* SitesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitesView.swift; sourceTree = "<group>"; };
+		8E865EE626292B65001B09A2 /* VaccinationLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccinationLocation.swift; sourceTree = "<group>"; };
+		8E865EEB26292CCC001B09A2 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		8E865EF02629370D001B09A2 /* locationsInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = locationsInfo.json; sourceTree = "<group>"; };
+		8E865EF526293A3C001B09A2 /* LocationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +117,9 @@
 		8E36226D260BB1BA006538C9 /* CovidSafe */ = {
 			isa = PBXGroup;
 			children = (
+				8E865F07262974CA001B09A2 /* Model */,
+				8E865F0626297497001B09A2 /* Views */,
+				8E865F08262974ED001B09A2 /* Data */,
 				8EBCC24D262545C6006140FB /* Main */,
 				8EBCC24C262545AA006140FB /* Profile */,
 				8EB16BAA260D8A6C009E2EE1 /* Log In  */,
@@ -141,6 +154,32 @@
 				8E36228D260BB1BB006538C9 /* Info.plist */,
 			);
 			path = CovidSafeUITests;
+			sourceTree = "<group>";
+		};
+		8E865F0626297497001B09A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E865EF526293A3C001B09A2 /* LocationRowView.swift */,
+				8E865EE1262927D7001B09A2 /* SitesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8E865F07262974CA001B09A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E865EE626292B65001B09A2 /* VaccinationLocation.swift */,
+				8E865EEB26292CCC001B09A2 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E865F08262974ED001B09A2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8E865EF02629370D001B09A2 /* locationsInfo.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		8EB16BAA260D8A6C009E2EE1 /* Log In  */ = {
@@ -277,6 +316,7 @@
 			files = (
 				8E362276260BB1BB006538C9 /* Preview Assets.xcassets in Resources */,
 				8E362273260BB1BB006538C9 /* Assets.xcassets in Resources */,
+				8E865EF12629370D001B09A2 /* locationsInfo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,11 +341,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E865EF626293A3C001B09A2 /* LocationRowView.swift in Sources */,
 				8E362271260BB1BA006538C9 /* ContentView.swift in Sources */,
 				8E3622AC260D467C006538C9 /* LogorSignUpScreen.swift in Sources */,
 				8E36229D260BB1D3006538C9 /* Profile.swift in Sources */,
+				8E865EE2262927D7001B09A2 /* SitesView.swift in Sources */,
+				8E865EE726292B65001B09A2 /* VaccinationLocation.swift in Sources */,
 				8E3622B1260D4850006538C9 /* LogIn.swift in Sources */,
 				8E3622A7260BB570006538C9 /* ProfileSummary.swift in Sources */,
+				8E865EEC26292CCC001B09A2 /* ModelData.swift in Sources */,
 				8E3622B6260D585A006538C9 /* SignUpPage.swift in Sources */,
 				8E36226F260BB1BA006538C9 /* CovidSafeApp.swift in Sources */,
 				8E3622A2260BB328006538C9 /* ProfileHost.swift in Sources */,
