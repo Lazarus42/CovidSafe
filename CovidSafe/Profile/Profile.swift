@@ -4,7 +4,7 @@
 //
 //  Created by Spencer Gibson on 3/24/21.
 //
-//This file contains the information for a user profile for the application
+//  @brief This file contains the information for a user profile for the application
 
 import Foundation
 import SwiftUI

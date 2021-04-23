@@ -11,25 +11,26 @@ import SwiftUI
 
 struct LocationListViews: View {
     var body: some View {
-        //Dynamically generate the list of vaccine sites
+        //  Dynamically generate the list of vaccine sites
         NavigationView {
             List(vaccLocations, id: \.id) {vaccSite in
-            NavigationLink(
-                destination: vaccineClaimView()) {
-                    LocationRowView(site: vaccSite)
+                NavigationLink(
+                    destination: vaccineClaimView()) {
+                        LocationRowView(site: vaccSite)
+                    }
                 }
-            }
-        .toolbar {
-            ToolbarItem(placement: .principal) {
-                Text("Vaccine Locations").font(.headline)
-                }
-            }
+            //  Setting mode to inline makes the title smaller
+            .navigationBarTitle("Vaccine Locations Nearby"
+                                , displayMode: .inline)
         }
     }
 }
 
 struct LocationListViews_Previews: PreviewProvider {
     static var previews: some View {
-        LocationListViews()
+        Group {
+            LocationListViews()
+            LocationListViews()
+        }
     }
 }
