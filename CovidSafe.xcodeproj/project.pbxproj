@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8E22CFF526337A5200A36740 /* LocationListViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E22CFF426337A5200A36740 /* LocationListViews.swift */; };
 		8E22CFFA263380CC00A36740 /* vaccineClaimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E22CFF9263380CC00A36740 /* vaccineClaimView.swift */; };
+		8E22D00626338A5000A36740 /* Bugs docx in Resources */ = {isa = PBXBuildFile; fileRef = 8E22D00526338A5000A36740 /* Bugs docx */; };
 		8E36226F260BB1BA006538C9 /* CovidSafeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E36226E260BB1BA006538C9 /* CovidSafeApp.swift */; };
 		8E362271260BB1BA006538C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E362270260BB1BA006538C9 /* ContentView.swift */; };
 		8E362273260BB1BB006538C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E362272260BB1BB006538C9 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 /* Begin PBXFileReference section */
 		8E22CFF426337A5200A36740 /* LocationListViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListViews.swift; sourceTree = "<group>"; };
 		8E22CFF9263380CC00A36740 /* vaccineClaimView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vaccineClaimView.swift; sourceTree = "<group>"; };
+		8E22D00526338A5000A36740 /* Bugs docx */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Bugs docx"; sourceTree = "<group>"; };
 		8E36226B260BB1BA006538C9 /* CovidSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovidSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E36226E260BB1BA006538C9 /* CovidSafeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidSafeApp.swift; sourceTree = "<group>"; };
 		8E362270260BB1BA006538C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E22D00426338A3500A36740 /* Bugs */ = {
+			isa = PBXGroup;
+			children = (
+				8E22D00526338A5000A36740 /* Bugs docx */,
+			);
+			path = Bugs;
+			sourceTree = "<group>";
+		};
 		8E362262260BB1BA006538C9 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +129,7 @@
 		8E36226D260BB1BA006538C9 /* CovidSafe */ = {
 			isa = PBXGroup;
 			children = (
+				8E22D00426338A3500A36740 /* Bugs */,
 				8E865F07262974CA001B09A2 /* Model */,
 				8E865F0626297497001B09A2 /* Views */,
 				8E865F08262974ED001B09A2 /* Data */,
@@ -317,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E22D00626338A5000A36740 /* Bugs docx in Resources */,
 				8E362276260BB1BB006538C9 /* Preview Assets.xcassets in Resources */,
 				8E362273260BB1BB006538C9 /* Assets.xcassets in Resources */,
 				8E865EF12629370D001B09A2 /* locationsInfo.json in Resources */,
