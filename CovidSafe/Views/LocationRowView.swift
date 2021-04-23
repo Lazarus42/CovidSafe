@@ -13,12 +13,13 @@ struct LocationRowView: View {
     var height = UIScreen.main.bounds.height
     var width = UIScreen.main.bounds.width
     var body: some View {
-        VStack(alignment: .center, spacing: height/30) {
-            Text(site.name)
+        VStack(alignment: .leading, spacing: height/30) {
+            VStack(alignment: .leading) {
+                Text(site.name).fontWeight(.bold)
+            }
             HStack(spacing: width/4){
                 Text("Vaccines: \(site.vaccAvailable)")
                 Text("Waitlist: \(site.waiting)")
-                Spacer()
             }
         }
     }
@@ -27,6 +28,9 @@ struct LocationRowView: View {
 
 struct LocationRowView_Previews: PreviewProvider {
     static var previews: some View {
-    LocationRowView(site: vaccLocations[0])
+        Group {
+            LocationRowView(site: vaccLocations[0])
+            LocationRowView(site: vaccLocations[1])
+        }
     }
 }
